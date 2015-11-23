@@ -5,18 +5,18 @@
 
 // General colors
 @syntax-text-color: #00ff00;
-@syntax-cursor-color: #00ff00;
-@syntax-selection-color: #005500;
-@syntax-background-color: #111111;
+@syntax-cursor-color: #ff0000;
+@syntax-selection-color: #000000;
+@syntax-background-color: #222222;
 
 // Guide colors
 @syntax-wrap-guide-color: #005500;
 @syntax-indent-guide-color: #005500;
-@syntax-invisible-character-color: #005500;
+@syntax-invisible-character-color: #004400;
 
 // For find and replace markers
-@syntax-result-marker-color: #0000aa;
-@syntax-result-marker-color-selected: #0000ff;
+@syntax-result-marker-color: #aa0000;
+@syntax-result-marker-color-selected: #ff0000;
 
 // Gutter colors
 @syntax-gutter-text-color: #00cc00;
@@ -29,3 +29,59 @@
 @syntax-color-added: @green;
 @syntax-color-modified: @orange;
 @syntax-color-removed: @red;
+
+// General colors
+@syntax-comment-color: #888888;
+
+@syntax-fold-color: #005500;
+
+@syntax-entity_type-color: #00ffaa;
+
+@syntax-inherited_class-color: #ff6666;
+
+@syntax-keyword-color: #ff3333;
+@syntax-keyword-control-color: #ee6666;
+@syntax-keyword-operator-color: #ee6666;
+@syntax-keyword-other-special-method-color: #009900;
+@syntax-keyword-other-unit-color: #009900;
+
+@syntax-storage-color: #0033ff;
+
+@syntax-constant-color: #6666ff;
+@syntax-constant-character-escape-color: #6666ff;
+@syntax-constant-numeric-color: #ff0000;
+@syntax-constant-numeric-other-color-color: #6666ff;
+@syntax-constant-numeric-other-symbol-color: #6666ff;
+
+@syntax-variable-color: #009900;
+@syntax-variable-interpolation-color: #006600;
+@syntax-variable-parameter-function-color: #00cccc;
+
+@syntax-string-color: #009900;
+@syntax-string-regexp-color: #009900;
+@syntax-string-regexp-source_ruby_embedded-color: #009900;
+@syntax-string-other_link-color: #009900;
+
+@syntax-punctuation-definition-comment-color: @syntax-comment-color;
+@syntax-punctuation-definition-string-color: @syntax-text-color;
+@syntax-punctuation-definition-variable-color: @syntax-text-color;
+@syntax-punctuation-definition-parameters-color: @syntax-text-color;
+@syntax-punctuation-definition-array-color: @syntax-text-color;
+@syntax-punctuation-definition-heading-color: @syntax-text-color;
+@syntax-punctuation-definition-identity-color: @syntax-text-color;
+@syntax-punctuation-definition-bold-color: @syntax-text-color;
+@syntax-punctuation-definition-italic-color: @syntax-text-color;
+@syntax-punctuation-section-embedded-color: darken(@red, 10%);
+
+@syntax-support-class-color: @syntax-text-color;
+@syntax-support-function-color: @syntax-text-color;
+@syntax-support-function-any-method-color: @syntax-text-color;
+
+@syntax-entity-name-function-color: #ff6666;
+@syntax-entity-name-class-color: #ff8888;
+@syntax-entity-name-type-class-color: #ff6666;
+@syntax-entity-name-section-color: #333399;
+@syntax-entity-name-tag-color: #333399;
+@syntax-entity-other-attribute-name-color: #333399;
+@syntax-entity-other-attribute-name-id-color: #333399;
+@syntax-entity-other-attribute-name-class-color: #333399;

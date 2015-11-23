@@ -1,5 +1,4 @@
 @import "syntax-variables";
-@import "syntax-colors";
 
 atom-text-editor, :host {
   background-color: @syntax-background-color;
@@ -40,7 +39,7 @@ atom-text-editor, :host {
   }
 
   .invisible {
-    color: @syntax-text-color;
+    color: @syntax-invisible-character-color;
   }
 
   .cursor {
@@ -213,29 +212,32 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .entity {
-  &.name.function {
-    color: @blue;
+  &.name {
+    &.function {
+      color: @syntax-entity-name-function-color;
+    }
+    &.class{
+      color: @syntax-entity-name-class-color;
+    }
+    &.type.class {
+      color: @syntax-entity-name-type-class-color;
+    }
+    &.section {
+      color: @syntax-entity-name-section-color;
+    }
+    &.tag {
+      color: @syntax-entity-name-tag-color;
+      text-decoration: underline;
+    }
   }
-
-  &.name.class,
-  &.name.type.class {
-    color: @red;
-  }
-
-  &.name.section {
-    color: @blue;
-  }
-
-  &.name.tag {
-    color: @red;
-    text-decoration: underline;
-  }
-
   &.other.attribute-name {
-    color: @orange;
+    color: @syntax-entity-other-attribute-name-color;
 
     &.id {
-      color: @blue;
+      color: @syntax-entity-other-attribute-name-id-color;
+    }
+    &.class {
+      color: @syntax-entity-other-attribute-name-class-color;
     }
   }
 }
