@@ -7,4 +7,4 @@ the syntax easier to digest at a  glance. I am mainly a Ruby on Rails developer,
 on ruby, html, haml, markdown, asciidoc, javascript, SQL, coffeescript, ECMAScript 6 (ES6), and JSON. I have included some
 test files in the source code of this syntax plugin, as a test. These were taken from the [highlight.js](http://hightlightjs.org) web site.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![A screenshot of your theme](https://raw.githubusercontent.com/skamansam/rbe-matrix-syntax/master/rbe-matrix-syntax.gif)
