@@ -1,7 +1,7 @@
 {
   "name": "rbe-matrix-syntax",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Matrix-style theme with some hard reds & blues",
   "keywords": [
     "syntax",
