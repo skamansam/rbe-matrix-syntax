@@ -1,0 +1,22 @@
+{
+    "name": "theme-rbematrix",
+    "displayName": "RBE Matrix Theme",
+    "description": "Matrix-inspired theme",
+    "version": "0.0.1",
+    "publisher": "skamansam",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "RBE Matrix Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/RBE-Matrix-Theme.tmTheme"
+            }
+        ]
+    }
+}
